@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,136 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <h1>Welcome to Panda Home</h1>
+    <!-- header here  -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shoes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Backpacks</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- slide start  -->
+        <section class="slide-area mt-5">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active bg-warning border rounded p-5">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-7">
+                                    <div class="slide-content">
+                                        <h2>Cool Dude Headphone</h2>
+                                        <p>This is the best headphone in the world for people who just want to waste time in
+                                        front of funky world.</p>
+                                        <h1>$420</h1>
+                                        <button class="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <img src="assets/images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active bg-warning border rounded p-5">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-7">
+                                    <div class="slide-content">
+                                        <h2>Mega LCD TV For Sports</h2>
+                                        <p>This is the best tv in the world for people who just want to waste time in front of
+                                        tv.</p>
+                                        <h1>$1200</h1>
+                                        <button class="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <img src="assets/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active bg-warning border rounded p-5">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-7">
+                                    <div class="slide-content">
+                                        <h2>X-Box for your living room</h2>
+                                        <p>This is the best x-box in the world for people who just want to waste time in
+                                        front of fake sports.</p>
+                                        <h1>$600</h1>
+                                        <button class="btn btn-primary">Buy Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <img src="assets/images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- slide end  -->
+        <!-- catergories area start  -->
+        <section class="categories-area my-5">
+            <div class="container">
+                <div class="row g-2">
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-4 border rounded-3 bg-danger d-flex align-items-center justify-content-between">
+                        <h2 class="text-white ">Watch</h2>
+                        <img src="assets/images/categories/watch.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-4 border rounded-3 bg-success d-flex align-items-center justify-content-between">
+                        <h2 class="text-white ">Bags</h2>
+                        <img src="assets/images/categories/bag.png" alt="">
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="p-4 border rounded-3 bg-primary d-flex align-items-center justify-content-between">
+                        <h2 class="text-white">Shoes</h2>
+                        <img src="assets/images/categories/shoes.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- catergories area end  -->
+    </main>
     <script src="assets/js/bootstrap.min.js"></script>
 </body>
+
 </html>
