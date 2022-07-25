@@ -50,5 +50,8 @@ body{
     background-color: #e482a6;
 }
 .panda-bg-4th{
-   background-color: #f30363; 
+   background-color: #f30363;
+}
+.categories h2 {
+    color: rgb(246, 246, 246);
 }
